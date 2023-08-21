@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net" modified="2023-08-16T18:10:33.210Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="85tBtuV92WkbA1CoDaCt" version="21.6.1" type="device">
+  <diagram name="Page-1" id="p5Y9N6triRn3RctfxCja">
+    <mxGraphModel dx="2037" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-1" value="Buscar exames" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="1">
+          <mxGeometry x="10" y="20" width="880" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-3" value="XMTP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZTtwm6zndwSYNK9adF7V-1">
+          <mxGeometry x="750" y="40" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZTtwm6zndwSYNK9adF7V-3">
+          <mxGeometry x="45" y="180" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-18" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="ZTtwm6zndwSYNK9adF7V-1" target="ZTtwm6zndwSYNK9adF7V-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="241" y="121" as="sourcePoint" />
+            <mxPoint x="490" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-19" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Buscar listagem de exames&lt;br&gt;solicitar transação:&amp;nbsp;&lt;i&gt;getOwnExams( )&lt;/i&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZTtwm6zndwSYNK9adF7V-18">
+          <mxGeometry x="-0.4462" relative="1" as="geometry">
+            <mxPoint x="71" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-5" value="Ethereum blockchain" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="617" y="60" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZTtwm6zndwSYNK9adF7V-5">
+          <mxGeometry x="45" y="114" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-7" value="Front-end" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="200" y="60" width="90" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-8" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="ZTtwm6zndwSYNK9adF7V-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="70" as="sourcePoint" />
+            <mxPoint x="41" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-9" value="Paciente" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZTtwm6zndwSYNK9adF7V-8">
+          <mxGeometry x="-0.9892" y="-4" relative="1" as="geometry">
+            <mxPoint x="40" y="-54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-10" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Acessar página de&lt;br&gt;listagem&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZTtwm6zndwSYNK9adF7V-8">
+          <mxGeometry x="-0.2284" y="1" relative="1" as="geometry">
+            <mxPoint x="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZTtwm6zndwSYNK9adF7V-7">
+          <mxGeometry x="41" y="68" width="10" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZTtwm6zndwSYNK9adF7V-7">
+          <mxGeometry x="41" y="240" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZTtwm6zndwSYNK9adF7V-7">
+          <mxGeometry x="40" y="180" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-22" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="ZTtwm6zndwSYNK9adF7V-7" source="ZTtwm6zndwSYNK9adF7V-12" target="ZTtwm6zndwSYNK9adF7V-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="52" y="250" as="sourcePoint" />
+            <mxPoint x="597" y="250.8571428571429" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-23" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Concatenar lista de exames &lt;br&gt;com lista de mensagens e&lt;br&gt;atualizar tela com listagem de exames&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZTtwm6zndwSYNK9adF7V-22">
+          <mxGeometry x="-0.5579" y="-1" relative="1" as="geometry">
+            <mxPoint x="66" y="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-13" value="Metamask" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="60" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZTtwm6zndwSYNK9adF7V-13">
+          <mxGeometry x="45" y="80" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-17" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="ZTtwm6zndwSYNK9adF7V-14" target="ZTtwm6zndwSYNK9adF7V-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="180" as="targetPoint" />
+            <mxPoint x="620" y="225" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="670" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ZTtwm6zndwSYNK9adF7V-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="245" as="sourcePoint" />
+            <mxPoint x="885" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-29" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Buscar mensagens com identificador &quot;exam&quot;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZTtwm6zndwSYNK9adF7V-27">
+          <mxGeometry x="-0.474" y="-3" relative="1" as="geometry">
+            <mxPoint x="119" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ZTtwm6zndwSYNK9adF7V-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="885" y="267" as="sourcePoint" />
+            <mxPoint x="250" y="267" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-32" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Retornar lista de mensagens&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZTtwm6zndwSYNK9adF7V-30">
+          <mxGeometry x="0.2772" relative="1" as="geometry">
+            <mxPoint x="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-15" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;" edge="1" parent="1" source="ZTtwm6zndwSYNK9adF7V-6" target="ZTtwm6zndwSYNK9adF7V-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="742" y="201" as="sourcePoint" />
+            <mxPoint x="251" y="229" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="201" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTtwm6zndwSYNK9adF7V-16" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Retornar lista de exames da carteira&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZTtwm6zndwSYNK9adF7V-15">
+          <mxGeometry x="-0.5301" y="1" relative="1" as="geometry">
+            <mxPoint x="-139" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
