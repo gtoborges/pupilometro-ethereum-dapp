@@ -10,6 +10,17 @@ Para rodar esta aplicação em ambiente local é preciso ter o <a href="https://
  - rodar um nó do IPFS através do <a href="https://github.com/ipfs/ipfs-desktop">ipfs-destktop</a>
 
 ___
+
+#### Referências para entender as ferramentas utilizadas e como funciona a aplicação
+
+- [A Tour of Web 3: Ethereum & Smart Contracts with Solidity](https://frontendmasters.com/courses/web3-smart-contracts/)
+	- Curso em uma plataforma paga, porém é possível acessá-la por 6 meses gratuitos através do programa [GitHub Student Developer Pack](https://education.github.com/pack)
+
+
+- [Curso de Solidity da Web3 Escola no Youtube](https://www.youtube.com/watch?v=mTM96iZR1C4&list=PL4PvbJTuGFzsT10fb6ayOchAf7igy3ZDB)
+	- Curso gratuito de Solidity em português
+
+___
 ### Configuração do ipfs-desktop
 
 Clone o repositório da aplicação:
