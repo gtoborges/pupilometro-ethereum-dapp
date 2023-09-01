@@ -76,7 +76,7 @@ npx hardhat run scripts/deploy.ts --network localhost
 
 Ao executar o deploy, você verá o endereço no contrato no terminal em que o script foi executado como na imagem a seguir
 
-![contract-address](/imagens/contract-address.png)
+![contract-address](/Imagens/contract-address.png)
 
 
 Também é possível ver o mesmo endereço no log do terminal que tiver rodando a rede através do hardhat
