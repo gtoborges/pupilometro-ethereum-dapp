@@ -51,9 +51,13 @@ export const useXmtpStore = defineStore('xmtpStore', () => {
 
   const getSharedExams = async (xmtp_client: Client, address: string) => {
     const conversationList = await xmtp_client.conversations.list();
+    console.log(conversationList, address)
     const [conversation] = conversationList.filter(c => c.context?.conversationId == 'sharedExam' && c.peerAddress == address)
+    console.log(conversation)
     if(!conversation) return []
-    return conversation.messages()
+    const messages = await conversation.messages()
+
+    return messages.map(m => m.content)
   }
 
   return {

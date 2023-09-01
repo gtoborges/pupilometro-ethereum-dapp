@@ -50,7 +50,7 @@ const getExamsData = async () => {
     let messages = await messageStore.getSharedExams(xmtp, permission.address)
     console.log(messages)
     for(let message of messages) {
-      let exam = exams.find(e => e.keys == message.content)
+      let exam = exams.find(e => e.keys == message)
       exam.shared = true
     }
 
