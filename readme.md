@@ -83,3 +83,30 @@ Também é possível ver o mesmo endereço no log do terminal que tiver rodando 
 
 ![contract-address2](/Imagens/contract-address2.png)
 
+___
+### Configuração do frontend
+
+Acesse o diretorio: 
+```bash
+cd frontend
+```
+
+
+Instale os pacotes necessários:
+```bash
+npm install
+```
+
+
+Altere o valor da variável *VITE_CONTRACT_ADDRESS* do arquivo **.env** em **frontend/src/.env** e coloque o endereço do contrato que foi feito o deploy na configuração do backend
+
+Execute a aplicação:
+```bash
+npm run dev
+```
+
+
+Acesse a aplicação em http://localhost:5173/
+
+Caso ainda não tenha a extensão da Metamask instalada, a aplicação irá direcionar para o site da <a href="https://metamask.io/download/">Metamask</a> para realizar a instalação da mesma.
+
